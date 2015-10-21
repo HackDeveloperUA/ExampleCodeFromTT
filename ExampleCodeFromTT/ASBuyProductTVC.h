@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ASBuyProductTVC.h
 //  ExampleCodeFromTT
 //
 //  Created by MD on 19.10.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ASBuyProductTVC : UITableViewController
 
 @end
-

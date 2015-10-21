@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+   
+    
+   // NSString *path = [[NSBundle mainBundle] pathForResource: @"dataList" ofType: @"plist"];
+   // NSMutableDictionary *dictplist =[[NSMutableDictionary alloc] initWithContentsOfFile:path];
+
+    
+    
     return YES;
 }
 
