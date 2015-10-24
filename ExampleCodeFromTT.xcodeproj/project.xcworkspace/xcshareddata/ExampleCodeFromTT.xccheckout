@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7CCFE547-9ED2-4F7A-8C03-3CBBCE784E8A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ExampleCodeFromTT</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4A5C3BAE1E335BBAE379C774AF2DE48114EB1273</key>
+		<string>https://github.com/HackDeveloperUA/ExampleCodeFromTT.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ExampleCodeFromTT.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4A5C3BAE1E335BBAE379C774AF2DE48114EB1273</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/HackDeveloperUA/ExampleCodeFromTT.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4A5C3BAE1E335BBAE379C774AF2DE48114EB1273</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4A5C3BAE1E335BBAE379C774AF2DE48114EB1273</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ExampleCodeFromTT</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -146,14 +146,7 @@
         
          if (!cell) {
             cell = [[ASDetailPageCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifierPageCell];
-         } else {
-             if ([cell viewWithTag:111]) [[cell viewWithTag:111] removeFromSuperview];
-             [cell.viewForPageVC addSubview:[self.pageController view]];
          }
-        
-        //if ([cell viewWithTag:111]) [[cell viewWithTag:111] removeFromSuperview];
-       // [cell layoutIfNeeded];
-        
         
         self.pageController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
         
@@ -161,8 +154,6 @@
         [[self.pageController view] setFrame:CGRectMake(0  , 0, CGRectGetWidth(self.view.bounds),   CGRectGetHeight(self.view.bounds)/2)];
         self.pageController.view.backgroundColor = [UIColor colorWithRed:0.333 green:0.584 blue:0.820 alpha:0.500];
         
-        
-        //UIView* parentView = [[UIView alloc]initWithFrame:CGRectMake(0  , 0, CGRectGetWidth(self.view.bounds),  CGRectGetHeight(self.view.bounds)/2)];
         cell.viewForPageVC.tag = 111;
         cell.viewForPageVC.frame = CGRectMake(0  , 0, CGRectGetWidth(self.view.bounds),  CGRectGetHeight(self.view.bounds)/2);
         ASTestVC *initialViewController = [self viewControllerAtIndex:0];
@@ -174,7 +165,7 @@
         [self addChildViewController:self.pageController];
         
         // Внимание огонь !
-        //[cell.viewForPageVC addSubview:[self.pageController view]];
+        [cell.viewForPageVC addSubview:[self.pageController view]];
         
         [self.pageController didMoveToParentViewController:self];
 
